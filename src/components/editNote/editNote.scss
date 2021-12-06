@@ -1,0 +1,16 @@
+.edit-note-form {
+  &__action {
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: inset 0 0 10px 5px skyblue;
+    }
+  }
+
+  &__field {
+    margin-bottom: 5px;
+  }
+}

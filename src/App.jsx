@@ -1,5 +1,14 @@
 import React from 'react';
+import EditNote from './components/editNote/EditNote';
+import NotesList from './components/NotesList';
 
-const App = () => <div>Notes app will be here</div>;
+import './common.scss';
+
+const App = () => (
+  <>
+    <NotesList />
+    {/* <EditNote /> */}
+  </>
+);
 
 export default App;
