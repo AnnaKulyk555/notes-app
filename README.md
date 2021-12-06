@@ -1,8 +1,4 @@
-# Calendar
 
-## Watch
-
-[active link](https://elegant-edison-e037a0.netlify.app/ 'netlify.com')
 
 ## The tech stack is:
 
