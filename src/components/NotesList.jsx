@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons';
 
 import Note from './Note';
+import Popup from './popup/Popup';
 
 const NotesList = () => (
   <>
@@ -12,6 +13,7 @@ const NotesList = () => (
       <ul className="list">
         <Note />
       </ul>
+      <Popup />
       <button className="notes-list__create-btn btn">
         <FontAwesomeIcon size="2x" icon={faPlusCircle} />
       </button>

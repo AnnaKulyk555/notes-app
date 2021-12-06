@@ -1,4 +1,5 @@
 import React from 'react';
+import Popup from '../popup/Popup';
 
 import './editNote.scss';
 
@@ -13,6 +14,7 @@ const EditNote = () => (
         placeholder="Description"
         className="edit-note-form__field"
       ></textarea>
+      {/* <Popup /> */}
       <div>
         <button className="edit-note-form__action">Delete</button>
         <button className="edit-note-form__action">Cancel</button>

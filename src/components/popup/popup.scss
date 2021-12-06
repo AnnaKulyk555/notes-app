@@ -1,0 +1,43 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c2c0c062;
+  z-index: 10;
+}
+
+.popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10vh;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    background: rgb(196, 225, 235);
+    padding: 16px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    &_text {
+      margin: auto;
+    }
+
+    &_actions {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5px;
+
+      &-btn {
+        border-radius: 5px;
+        border: 0.5 px solid #ccc;
+        cursor: pointer;
+      }
+    }
+  }
+}
