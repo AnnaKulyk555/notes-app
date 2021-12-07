@@ -1,14 +1,19 @@
-import React from 'react';
+/* eslint-disable arrow-body-style */
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 import EditNote from './components/editNote/EditNote';
-import NotesList from './components/NotesList';
+import NotesList from './components/notesList/NotesList';
 
-import './common.scss';
+import './index.scss';
 
-const App = () => (
-  <>
-    <NotesList />
-    {/* <EditNote /> */}
-  </>
-);
+const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<NotesList />} />
+      <Route path="/editNote" element={<EditNote />} />
+    </Routes>
+  );
+};
 
 export default App;

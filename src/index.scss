@@ -1,46 +1,29 @@
-.notes-list {
-  &__create-btn {
-    margin: 10px;
-    margin-left: auto;
-  }
+* {
+  box-sizing: border-box;
 }
 
-.list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  margin: auto;
-  width: 100%;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.list-item {
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.common {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  white-space: nowrap;
+  flex-direction: column;
+  background-color: steelblue;
   border-radius: 8px;
-  background-color: skyblue;
-  margin-bottom: 8px;
   padding: 8px;
+  max-width: 600px;
+  margin: auto;
+}
 
-  &__text {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-
-    &-title {
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    &-desc {
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-  }
-
-  &:last-child {
-    margin-bottom: 0;
-  }
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

@@ -1,0 +1,31 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-radius: 8px;
+  background-color: skyblue;
+  margin-bottom: 8px;
+  padding: 8px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &-title {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
