@@ -1,8 +1,8 @@
 const baseUrl = 'https://6151af974a5f22001701d380.mockapi.io/p1/notes';
 
 export const fetchNotesData = async () => {
-  const responce = await fetch(baseUrl);
-  const notesData = await responce.json();
+  const response = await fetch(baseUrl);
+  const notesData = await response.json();
 
   return notesData;
 };
