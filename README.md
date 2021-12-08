@@ -1,4 +1,7 @@
 
+## Watch
+
+[active link](https://jolly-williams-b013c0.netlify.app/ 'Netlify pages')
 
 ## The tech stack is:
 
@@ -20,7 +23,6 @@ CSS3
 
 Sass (Scss)
 
-BEM methodology
 
 # For deploy the project - DEV:
 
